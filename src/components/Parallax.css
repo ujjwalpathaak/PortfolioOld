@@ -1,0 +1,167 @@
+.merge {
+  mix-blend-mode: screen;
+}
+#parallax {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+  justify-content: center;
+  scroll-snap-align: center;
+  overflow-y: hidden;
+}
+#parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+#stars {
+  opacity: 0.5;
+}
+#rocks {
+  z-index: 5;
+}
+#name {
+  color: white;
+  font-family: "Sacramento", cursive;
+  font-size: 130px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin: 0;
+}
+#typewriter {
+  color: white;
+  left: 0;
+  object-fit: cover;
+  font-size: 20px;
+  font-style: italic;
+  position: absolute;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 50px;
+}
+#typewriter-cursor {
+  font-weight: bold;
+}
+Cursor {
+  height: 10px;
+}
+#homepage-main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#homepage-main div {
+  z-index: 0;
+  margin-top: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1200px) {
+  #HomePage {
+    overflow-y: hidden;
+  }
+  #parallax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    justify-content: center;
+  }
+  #parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+  }
+  #stars {
+    opacity: 0.5;
+  }
+  #rocks {
+    z-index: 5;
+  }
+  #name {
+    color: white;
+    font-family: "Sacramento", cursive;
+    font-size: 65px;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  h1 {
+    margin: 0;
+  }
+  #typewriter {
+    color: white;
+    left: 0;
+    object-fit: cover;
+    font-size: 15px;
+    font-style: italic;
+    position: absolute;
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 50px;
+  }
+  #typewriter-cursor {
+    font-weight: bold;
+  }
+  Cursor {
+    height: 10px;
+  }
+  #homepage-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #homepage-main div {
+    z-index: 0;
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,51 @@
+#NavBar {
+  display: flex;
+  position: fixed;
+  width: 86%;
+  height: 40px;
+  z-index: 90;
+  background-color: transparent;
+  font-family: "Sacramento", cursive;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+#navbar-name-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#navbar-links-section {
+  display: flex;
+  position: fixed;
+  width: 80%;
+  height: 40px;
+  z-index: 90;
+  background-color: transparent;
+  font-family: "Sacramento", cursive;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+#navbar-links-section p {
+  color: grey;
+  font-family: "Poppins", sans-serif;
+}
+#navbar-links-section p a {
+  text-decoration: none;
+  color: grey;
+}
+
+#navbar-name {
+  color: #ffe401;
+  font-size: 25px;
+  margin: 20px 0px 0px 0px;
+}
+.active {
+  color: white;
+}
+@media only screen and (max-width: 1200px) {
+  #NavBar {
+    display: none;
+  }
+}

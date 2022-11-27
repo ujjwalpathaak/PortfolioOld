@@ -1,0 +1,30 @@
+#footer {
+  height: 25vh;
+  background-color: #131313;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+}
+#footer-upper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+#footer-lower {
+  color: white;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5px;
+}
+#footer-contact span {
+  display: block;
+}

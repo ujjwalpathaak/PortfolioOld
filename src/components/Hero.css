@@ -1,0 +1,225 @@
+#hero {
+  display: flex;
+  height: 100vh;
+  background-color: #131313;
+  z-index: 5;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: center;
+}
+#hero-max-div{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  scroll-snap-align: center;
+}
+#para-me {
+  font-family: "Poppins", sans-serif;
+  max-width: 525px;
+  color: white;
+  font-size: 19px;
+}
+#para-me span {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 17px;
+  display: block;
+  color: #9fe8ff;
+}
+#para-me p {
+  text-align: justify;
+  width: 100%;
+  margin: 0;
+}
+#illustration-me {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 500px;
+  width: 500px;
+  border-radius: 300px;
+  background: white;
+  background-image: url("https://drive.google.com/uc?export=view&id=1Oqyrt9PiqSPRwDwpPhMSGE3GQd6prod1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+#socials {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: -moz-fit-content;
+  width: 100%;
+  justify-content: space-between;
+}
+#socials span {
+  font-size: 13px;
+  width: fit-content;
+}
+#socials button {
+  background: transparent;
+  border: none;
+  height: 45px;
+  padding: 0%;
+  width: 45px;
+  background-image: url("https://drive.google.com/uc?export=view&id=13Sa8hmj5Yypm2C6_ofWMGp-39WGNELAY");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+#socials div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#number img {
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  margin: 0;
+}
+#number span {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1500px) {
+  #para-me {
+    font-family: "Poppins", sans-serif;
+    width: 35vw;
+    color: white;
+    font-size: 19px;
+  }
+  #para-me span {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 17px;
+    display: block;
+    color: #9fe8ff;
+  }
+  #illustration-me {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 300px;
+    background: white;
+    background-image: url("https://drive.google.com/uc?export=view&id=1Oqyrt9PiqSPRwDwpPhMSGE3GQd6prod1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #hero-max-div{
+    display: flex;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #131313;
+    z-index: 5;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center;
+    overflow-y: hidden;
+  }
+
+  #hero {
+    display: flex;
+    height: fit-content;
+    background-color: #131313;
+    z-index: 5;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center;
+    overflow-y: hidden;
+  }
+  #para-me {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    color: white;
+    font-size: 19px;
+    margin: 0px 0px 0px 0px;
+  }
+  #para-me span {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 17px;
+    display: block;
+  }
+  #para-me p {
+    text-align: justify;
+    width: 100%;
+    margin: 0;
+  }
+  #illustration-me {
+    height: -moz-fit-content;
+    height: auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 300px;
+    width: 300px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 300px;
+    background: white;
+    background-image: url("https://drive.google.com/uc?export=view&id=13Sa8hmj5Yypm2C6_ofWMGp-39WGNELAY");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+  }
+  #socials {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: -moz-fit-content;
+    width: 100%;
+    justify-content: space-between;
+  }
+  #socials span {
+    font-size: 10px;
+    width: fit-content;
+  }
+  #socials button {
+    background: transparent;
+    border: none;
+    height: 45px;
+    padding: 0%;
+    width: 45px;
+    background-image: url("https://drive.google.com/uc?export=view&id=13Sa8hmj5Yypm2C6_ofWMGp-39WGNELAY");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  #socials div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #number img {
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    margin: 0;
+  }
+  #number span {
+    margin: 0;
+  }
+}
